@@ -4,7 +4,7 @@ This project presents an API shim to deploy pre-configured Azure Container Insta
 
 ### What problems does this solve?
 
-The target use case for this sample application is client applications (i.e., mobile, web, desktop) that should not / do not have enough priviledges to directly call the Azure management API's needed for deploying new resources (such as ACI instances). The application leverages a service principal that has the required isloated priviledges without needed to give extended permissions to end user/client applications.
+The target use case for this sample application is client applications (i.e., mobile, web, desktop) that should not / do not have enough priviledges to directly call the Azure management API's needed for deploying new resources (such as ACI instances). The application leverages a service principal that has the required isloated priviledges without needing to give extended permissions to end user/client applications.
 
 ### Authentication / Authorization
 
