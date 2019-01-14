@@ -17,7 +17,7 @@ export interface IContainerService {
     StopDeployment(containerGroupName: string): Promise<void>;
     DeleteDeployment(containerGroupName: string): Promise<void>;
     GetMatchingGroupInfo(numCpu: number, memoryInGB: number): Promise<GroupMatchInformation>;
-    GetFullConatinerDetails(): Promise<ContainerGroup[]>;
+    GetFullContainerDetails(): Promise<ContainerGroup[]>;
 }
 
 export class GroupMatchInformation {
